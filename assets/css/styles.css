@@ -1,0 +1,129 @@
+html {
+  box-sizing: border-box;
+  font-family: Roboto-bold, sans-serif;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+}
+.button {
+  background-color: #a491d2;
+  border: none;
+  color: white;
+  min-height: 6vh;
+  min-width: 12vw;
+  border: #bec1bb solid 1px;
+}
+.button-container {
+  min-height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contactos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 20vw;
+  background-color: #fff;
+  border: 1px solid #bec1bb;
+}
+.contactos img {
+  max-width: 7vw;
+  max-height: 7vh;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.6rem;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  border: 0.1px solid #bec1bb;
+}
+.container-main {
+  width: 100%;
+}
+.container-text {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.container-text p {
+  align-items: end;
+}
+h1 {
+  font-size: 2.81rem;
+  padding: 0%;
+  margin: 0%;
+}
+
+.name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #bec1bb;
+  width: 100%;
+  height: 12%;
+}
+.name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.name-text p {
+  margin: 0%;
+  padding: 0%;
+}
+p {
+  font-size: 0.875rem;
+}
+.photo {
+  width: 30%;
+  justify-content: right;
+}
+.principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  width: 80vw;
+  background-color: #e8ebe4;
+}
+.principal img {
+  max-width: 18vw;
+  margin: 2rem;
+}
+.principal p {
+  font-size: 1rem;
+  padding: 0%;
+  margin: 0.2rem;
+}
+small {
+  font-size: 0.625rem;
+}
